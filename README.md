@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# Space Biology Knowledge Engine
 
-## Project info
+A comprehensive platform for aggregating, analyzing, and visualizing space biology research data.
 
-**URL**: https://lovable.dev/projects/a14de699-eadd-4d88-b89e-99e7f09b94c2
+## 🚀 Features
 
-## How can I edit this code?
+- **Interactive Data Visualization**: Charts, graphs, and interactive maps for space biology data
+- **Advanced Search & Filtering**: Powerful search capabilities across biological datasets
+- **Knowledge Graph Integration**: Interconnected biological data relationships
+- **Real-time Data Updates**: Live data from NASA and other space agencies
+- **Educational Resources**: Learning modules and research tools
+- **Responsive Design**: Modern UI/UX optimized for all devices
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+### Frontend
+- React 18 with TypeScript
+- Material-UI (MUI) for components
+- D3.js for data visualization
+- Redux Toolkit for state management
+- React Router for navigation
+- Chart.js for additional charts
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a14de699-eadd-4d88-b89e-99e7f09b94c2) and start prompting.
+### Backend
+- Node.js with Express
+- MongoDB with Mongoose
+- GraphQL with Apollo Server
+- JWT for authentication
+- NASA API integration
+- Data processing pipelines
 
-Changes made via Lovable will be committed automatically to this repo.
+### Development Tools
+- Docker for containerization
+- ESLint & Prettier for code quality
+- Jest for testing
+- GitHub Actions for CI/CD
 
-**Use your preferred IDE**
+## 📦 Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd space-biology-knowledge-engine
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install all dependencies**
+   ```bash
+   npm run install-all
+   ```
 
-Follow these steps:
+3. **Set up environment variables**
+   ```bash
+   cp server/.env.example server/.env
+   # Edit server/.env with your configuration
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Start the development servers**
+   ```bash
+   npm run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌐 API Endpoints
 
-# Step 3: Install the necessary dependencies.
-npm i
+- `GET /api/experiments` - List all space biology experiments
+- `GET /api/organisms` - Get biological organisms data
+- `GET /api/missions` - NASA mission data
+- `POST /api/search` - Advanced search functionality
+- `GET /api/visualizations` - Data visualization endpoints
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📊 Data Sources
+
+- NASA Open Data Portal
+- PubMed biomedical literature
+- European Space Agency (ESA) archives
+- Biological ontologies (OBO Foundry)
+
+## 🎯 Project Goals
+
+This project aims to:
+
+1. **Data Integration**: Aggregate space biology data from multiple sources
+2. **Knowledge Discovery**: Use AI/ML to identify patterns and relationships
+3. **Educational Impact**: Make space biology accessible to researchers and students
+4. **Open Science**: Promote data sharing and collaboration
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📄 License
+
+MIT License - see LICENSE file for details
+
+## 🚀 Deployment
+
+The application can be deployed using Docker:
+
+```bash
+docker-compose up -d
 ```
 
-**Edit a file directly in GitHub**
+## 📞 Support
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a14de699-eadd-4d88-b89e-99e7f09b94c2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For questions or support, please open an issue on GitHub.
