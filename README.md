@@ -82,7 +82,10 @@ This project aims to:
 2. **Knowledge Discovery**: Use AI/ML to identify patterns and relationships
 3. **Educational Impact**: Make space biology accessible to researchers and students
 4. **Open Science**: Promote data sharing and collaboration
+## 👤 My Contribution
 
+- Contributed to the solution design and technical research during the NASA Space Apps Challenge 2025.
+- Collaborated with the team on project development and technical discussions during the 48-hour hackathon.
 ## 🤝 Contributing
 
 1. Fork the repository
